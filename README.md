@@ -1,1 +1,11 @@
-# security-app
+## To run the app:
+- Navigate to root folder
+- Run `pip3 install -r requirements.txt`
+- Create a `.env` file in root directory
+- Enter your AWS Key ID and AWS Secret key in `.env` file
+- Run `python3 app.py`
+- To start VM, send GET request to `http://127.0.0.1:5000/start-vm`
+- To stop VM, send GET request to `http://127.0.0.1:5000/start-vm`
+- To start alpine container, send GET request to `http://127.0.0.1:5000/start-container`
+- To stop alpine container, send GET request to `http://127.0.0.1:5000/stop-container`
+- To list all containers, send GET request to `http://127.0.0.1:5000/list-container`
